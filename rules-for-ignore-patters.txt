@@ -1,0 +1,8 @@
+* Blank lines or lines starting with # are ignored
+* Standard glob patterns work
+* You can end patterns with a forward slash(/) to specify a directory
+* You can negate a pattern by starting it with an exclamation point(!).
+
+Glob patters are like simplified regular expressions that shells use. An asterisk(*) matches zeor or more characters; [abc] matches any character inside the brackets (in this case, a, b, or cs); a question mark(?) matches a single character; and brackets enclosing characters separated by a hyphen([0-9]) matches any character in the range(in this case 0 through 9)
+
+

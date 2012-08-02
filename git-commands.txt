@@ -1,0 +1,24 @@
+Cloning an existing repository
+
+$ git clone path_to_git_repository [your_name_for_the_repository]
+
+path_tot_git_repository could be following protocols
+git://
+http(s)://
+user@server:path.git:
+
+git status
+Current status on untracked, modified, etc files and directories that are relative to current directory
+
+git add <file_name> or git add <directory>
+
+git reset HEAD <file_name> or git reset HEAD <directory>
+This will unstage tracked files and directoies
+
+After tracked files are modifed, you can run
+
+git add <file_name...> again to stage the change
+
+or remove the chaneg by running following command
+
+git checkout -- <file_name...>
